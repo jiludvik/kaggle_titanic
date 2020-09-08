@@ -1,17 +1,4 @@
 # TITANIC ML - Final Version With All Options Tested
-#
-# Includes
-#       Imputation of missing values of Embarked, Fare, Cabin variables using SimpleImputer
-#       Imputation of missing values of Age variables using mean values of other columns
-#       Generation of new features: Title, IsAlone, GroupSize, FareBin and AgeBin
-#       GridSearchCV and BayesSearchCV hyperparameter tuning of
-#           LGBMClassifier, DecisionTreeCLassifier, RandomForestClassifier,
-#           GradientBoostinGClassifier, XGBoost
-#       Feature correlation heatmaps for different algorithms
-#       Feature selection using Recursive Feature Engineering
-#       Generation ot predictions from test data using
-#           Individual algorithms and
-#           Combined model built using VotingClassifier
 
 
 #%% MODULE 1. Data Loading, Cleansing, Feature Engineering and Exploration
